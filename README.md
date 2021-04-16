@@ -26,3 +26,5 @@ Here are the dotfiles for my latest setup.
 * Display Manager: Lightdm-webkit2-greeter
 * Lockscreen: ??
 * Colorscheme: ??
+* PDF Viewer: Zathura
+* Shell Prompt: powerline-shell
