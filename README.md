@@ -28,3 +28,8 @@ Here are the dotfiles for my latest setup.
 * Colorscheme: ??
 * PDF Viewer: Zathura
 * Shell Prompt: powerline-shell
+
+## Other Applications
+* easytag (used to tag audio files)
+* slack (used to chat for school/research)
+* zoom (used to virtually meet)
