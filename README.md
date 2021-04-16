@@ -1,4 +1,10 @@
-# dotfiles
-Linux Configuration Files
+# Dotfiles
+Here are the dotfiles for my latest setup.
 
-## Display Manager
+## Info
+* OS: Arch
+* WM: 
+* Terminal:
+* Shell:
+* Bar:
+* Browser:
