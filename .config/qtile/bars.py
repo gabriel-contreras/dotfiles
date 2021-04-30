@@ -1,65 +1,66 @@
 from libqtile import bar, widget
-import os
-import socket
 
-prompt = "🍮: "
+# Set the theme
+from colorschemes.skyrim import *
+theme = "skyrim"
+
+if (theme == "skyrim"): prompt = "🍮: "
 
 main_bar = bar.Bar(
     [
         widget.GroupBox(
-            active="#b0b6b6",
-            background=["#5b6464", "#c3b4a0"],
+            active= white,
+            background = [grad1, grad2],
             borderwidth=2,
-            font='roman',
-            fontsize=12,
-            inactive="#3a4445",
-            this_current_screen_border="#a1a5a8"
-                ),
+            fontsize=18,
+            inactive = black,
+            this_current_screen_border = current_group_border
+        ),
         widget.Prompt(
             prompt=prompt,
             font='roman',
-            background=["#5b6464", "#c3b4a0"]
-                ),
+            background = [grad1, grad2]
+        ),
         widget.Spacer(
             length=bar.STRETCH,
-            background=["#5b6464", "#c3b4a0"]
-                ),
+            background = [grad1, grad2]
+        ),
         widget.BatteryIcon(
-            background=["#5b6464", "#c3b4a0"]
-                ),
+            background = [grad1, grad2]
+        ),
         widget.Battery(
             format='{percent:2.0%}',
-            background=["#5b6464", "#c3b4a0"],
-            foreground="#3a4445"
-                ),
+            background = [grad1, grad2],
+            foreground=black
+        ),
         widget.Sep(
-            background=["#5b6464", "#c3b4a0"],
+            background = [grad1, grad2],
             linewidth=0,
             padding=6
-                ),
+        ),
         widget.TextBox(
             text="Vol:",
-            background=["#5b6464", "#c3b4a0"],
-            foreground="#3a4445"
-                ),
+            background = [grad1, grad2],
+            foreground=black
+        ),
         widget.Volume(
-            background=["#5b6464", "#c3b4a0"],
-            foreground="#3a4445"
-                ),
+            background = [grad1, grad2],
+            foreground=black
+        ),
         widget.Sep(
-            background=["#5b6464", "#c3b4a0"],
+            background = [grad1, grad2],
             linewidth=0,
             padding=6
-                ),
+        ),
         widget.Systray(
-            background=["#5b6464", "#c3b4a0"],
-            foreground="#3a4445"
-                ),
+            background = [grad1, grad2],
+            foreground=black
+        ),
         widget.Clock(
             format='%Y-%m-%d %a %I:%M %p',
-            background=["#5b6464", "#c3b4a0"],
-            foreground="#3a4445"
-                )
+            background = [grad1, grad2],
+            foreground=black
+        )
     ],
     24
 )
