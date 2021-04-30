@@ -29,4 +29,4 @@ alias cfg-nvim="cd $HOME/.config/nvim/ && nvim init.vim"
 alias cfg-kitty="cd $HOME/.config/kitty/ && nvim kitty.conf"
 
 # Edit the Alacritty Terminal config
-alias cfg-ala="cd $HOME/.config/alacritty/ && nvim alacritty.xml"
+alias cfg-ala="cd $HOME/.config/alacritty/ && nvim alacritty.yml"
