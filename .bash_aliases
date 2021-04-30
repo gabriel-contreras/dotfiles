@@ -20,13 +20,10 @@ alias gc="git clone"
 alias cfg-awesome="cd $HOME/.config/awesome/ && nvim rc.lua"
 
 # Edit the qtile config
-alias cfg-qtile="cd $HOME/.config/qtile/ && nvim config.py"
+alias cfg-qtile="cd $HOME/.config/qtile/ && nvim ."
 
 # Edit the nvim config
 alias cfg-nvim="cd $HOME/.config/nvim/ && nvim init.vim"
 
-# Edit the Kitty Terminal config
-alias cfg-kitty="cd $HOME/.config/kitty/ && nvim kitty.conf"
-
 # Edit the Alacritty Terminal config
-alias cfg-ala="cd $HOME/.config/alacritty/ && nvim alacritty.yml"
+alias cfg-ala="cd $HOME/.config/alacritty/ && nvim ."
