@@ -1,3 +1,6 @@
+# Always colorcode the ls command
+alias ls='ls --color=auto'
+
 # Alternative, cleaner version of ls for smaller directories
 alias lt='ls --human-readable --size -1 -S --classify'
 
@@ -24,3 +27,6 @@ alias cfg-nvim="cd $HOME/.config/nvim/ && nvim init.vim"
 
 # Edit the Kitty Terminal config
 alias cfg-kitty="cd $HOME/.config/kitty/ && nvim kitty.conf"
+
+# Edit the Alacritty Terminal config
+alias cfg-ala="cd $HOME/.config/alacritty/ && nvim alacritty.xml"
