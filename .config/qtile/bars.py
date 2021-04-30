@@ -11,14 +11,18 @@ main_bar = bar.Bar(
         widget.GroupBox(
             active= white,
             background = [grad1, grad2],
-            borderwidth=2,
-            fontsize=18,
+            borderwidth=3,
+            margin_x = 10,
+            fontsize=20,
             inactive = black,
             this_current_screen_border = current_group_border
         ),
         widget.Prompt(
             prompt=prompt,
-            font='roman',
+            font='firacode',
+            cursor_color = white,
+            fontshadow = current_group_border,
+            foreground = white,
             background = [grad1, grad2]
         ),
         widget.Spacer(
@@ -30,6 +34,7 @@ main_bar = bar.Bar(
         ),
         widget.Battery(
             format='{percent:2.0%}',
+            font = 'firacode',
             background = [grad1, grad2],
             foreground=black
         ),
@@ -39,11 +44,12 @@ main_bar = bar.Bar(
             padding=6
         ),
         widget.TextBox(
-            text="Vol:",
+            text="",
             background = [grad1, grad2],
             foreground=black
         ),
         widget.Volume(
+            font = 'firacode',
             background = [grad1, grad2],
             foreground=black
         ),
@@ -53,11 +59,13 @@ main_bar = bar.Bar(
             padding=6
         ),
         widget.Systray(
+            font = 'firacode',
             background = [grad1, grad2],
             foreground=black
         ),
         widget.Clock(
             format='%Y-%m-%d %a %I:%M %p',
+            font = 'firacode',
             background = [grad1, grad2],
             foreground=black
         )

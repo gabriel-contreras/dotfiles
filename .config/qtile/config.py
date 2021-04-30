@@ -29,9 +29,13 @@ for i, (name) in enumerate(group_names):
         Key([mod, "shift"], str(i+1), lazy.window.togroup(name))
     ])
 
+### LAYOUTS ###
+if (theme == "skyrim"):
+    border_focus = "#b16e2e"
+
 layouts = [
     layout.MonadTall(
-        border_focus="#5b6464",
+        border_focus=border_focus,
         border_width=4,
         margin=10,
         single_margin=14
@@ -41,6 +45,8 @@ layouts = [
 widget_defaults = dict(font='sans', fontsize=14, padding=5)
 
 # Set the wallpaper
+
+
 def wallpaper():
     path = '~/Downloads/' + theme + '.jpg'
     os.system('feh --bg-scale ' + path)
