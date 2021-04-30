@@ -4,16 +4,15 @@ Here are the dotfiles for my latest setup. This is still a work in progess, and 
 ## Info
 * OS: Arch
 * Shell: Bash
-* Display Manager: Lightdm-webkit2-greeter
+* Display Manager: Lightdm-webkit2-greeter with Aether theme
 * Window Manager: Qtile
-* Terminal: Kitty
+* Terminal: Alacritty
 * File Manager: pcManfm
 * Editor: Visual Studio Code and Neovim
 * Browser: Firefox
 * Notes: Notion
 * Compositor: Picom
 * PDF Viewer: Zathura
-* Shell Prompt: powerline-shell
 
 ## Other Applications
 * spotify with spicetify (music player)
