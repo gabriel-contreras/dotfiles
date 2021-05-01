@@ -5,6 +5,7 @@ from colorschemes.skyrim import *
 theme = "skyrim"
 
 if (theme == "skyrim"): prompt = "🍮: "
+elif (theme == "gow"): prompt = "𝝮: "
 
 main_bar = bar.Bar(
     [
@@ -29,8 +30,15 @@ main_bar = bar.Bar(
             length=bar.STRETCH,
             background = [grad1, grad2]
         ),
-        widget.BatteryIcon(
-            background = [grad1, grad2]
+        widget.Systray(
+            font = 'firacode',
+            background = [grad1, grad2],
+            foreground=black
+        ),
+        widget.TextBox(
+            text="",
+            background = [grad1, grad2],
+            foreground=black
         ),
         widget.Battery(
             format='{percent:2.0%}',
@@ -58,13 +66,13 @@ main_bar = bar.Bar(
             linewidth=0,
             padding=6
         ),
-        widget.Systray(
-            font = 'firacode',
+        widget.TextBox(
+            text = "",
             background = [grad1, grad2],
-            foreground=black
+            foreground = black
         ),
         widget.Clock(
-            format='%Y-%m-%d %a %I:%M %p',
+            format='%I:%M %p',
             font = 'firacode',
             background = [grad1, grad2],
             foreground=black

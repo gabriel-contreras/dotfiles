@@ -48,7 +48,7 @@ widget_defaults = dict(font='sans', fontsize=14, padding=5)
 
 
 def wallpaper():
-    path = '~/Downloads/' + theme + '.jpg'
+    path = '/usr/share/backgrounds/' + theme + '.jpg'
     os.system('feh --bg-scale ' + path)
 
 
