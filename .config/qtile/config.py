@@ -16,9 +16,8 @@ group_names = [
     "",
     "",
     "",
-    "",
-    "",
-    "",
+    "",
+    "",
     "",
     ""
 ]
@@ -36,26 +35,13 @@ if (theme == "skyrim"):
 layouts = [
     layout.MonadTall(
         border_focus=border_focus,
-        border_width=4,
-        margin=10,
-        single_margin=14
+        border_width=7,
+        margin=12,
+        single_margin=20
     )
 ]
 
 widget_defaults = dict(font='sans', fontsize=14, padding=5)
-
-# Set the wallpaper
-
-
-def wallpaper():
-    path = '/usr/share/backgrounds/' + theme + '.jpg'
-    os.system('feh --bg-scale ' + path)
-
-
-@hook.subscribe.startup
-def autostart():
-    wallpaper()
-
 
 dgroups_key_binder = None
 dgroups_app_rules = []
@@ -71,5 +57,5 @@ wmname = "qtile"
 
 @hook.subscribe.startup
 def opacity():
-    home = os.path.expanduser('/.config/qtile/autostart.sh')
+    home = os.path.expanduser('.config/qtile/autostart.sh')
     subprocess.call([home])
