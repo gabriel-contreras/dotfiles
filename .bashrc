@@ -13,12 +13,12 @@ if [ -e $HOME/.bash_functions ]; then
 fi
 
 # Customize the prompt
-theme="skyrim"
+theme="gow"
 
 if [ $theme = "skyrim" ]; then
 	PS1='🍮 \w\n◼️ '
 elif [ $theme = "gow" ]; then
-	PS1=' \w\n◼️ '
+	PS1='𝝮 \w\n◼️ '
 elif [ $theme = "hzd" ]; then
-	PS1='  \w\n◼️ '
+	PS1='🏹 \w\n◼️ '
 fi

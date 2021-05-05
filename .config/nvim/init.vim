@@ -49,16 +49,12 @@ let g:rainbow_active = 1
 set textwidth=80
 
 " Color/Theme customizations
+" skyrim -> afterglow ; zenburn
+" gow -> pink-moon ; angr
+" hzd -> dogrun ; bubblegum
 let g:airline_powerline_fonts = 1
-" Skyrim
-"colorscheme afterglow
-"let g:airline_theme = 'zenburn'
-" God of War
 colorscheme pink-moon
 let g:airline_theme = 'angr'
-" Horizon Zero Dawn
-"colorscheme dogrun
-"let g:airline_theme = 'bubblegum'
 
 " Enables autocompletion:
 set wildmode=longest,list,full

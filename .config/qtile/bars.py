@@ -28,22 +28,15 @@ main_bar = bar.Bar(
          widget.Spacer(
             length = bar.STRETCH
          ),
-         widget.Pomodoro(
-            color_active = white,
-            color_break = current_group_border,
-            color_inactive = white,
+         widget.TextBox(
+            text = "",
+            foreground = white
+         ),
+         widget.Clock(
+            format='%I:%M %p',
             font = 'firacode',
-            fontshadow = current_group_border,
-            fontsize = 18,
-            length_long_break = 15,
-            length_pomodori = 25,
-            length_short_break = 5,
-            num_pomodori = 4,
-            prefix_active = ' ',
-            prefix_break = ' ',
-            prefix_inactive = 'Pomodoro',
-            prefix_long_break = ' ',
-            prefix_paused = 'Paused'
+            fontsize = 16,
+            foreground=white
          ),
          widget.Spacer(
             length = bar.STRETCH
@@ -77,14 +70,22 @@ main_bar = bar.Bar(
             linewidth=0,
             padding=6
          ),
-         widget.TextBox(
-            text = "",
-            foreground = black
-         ),
-         widget.Clock(
-            format='%I:%M %p',
+         widget.Pomodoro(
+            color_active = white,
+            color_break = current_group_border,
+            color_inactive = black,
             font = 'firacode',
-            foreground=black
+            fontshadow = current_group_border,
+            fontsize = 14,
+            length_long_break = 15,
+            length_pomodori = 25,
+            length_short_break = 5,
+            num_pomodori = 4,
+            prefix_active = ' ',
+            prefix_break = ' ',
+            prefix_inactive = 'Pomodoro',
+            prefix_long_break = ' ',
+            prefix_paused = 'Paused'
          )
      ],
      size = 32,
