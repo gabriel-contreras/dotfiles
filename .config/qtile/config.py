@@ -34,7 +34,7 @@ if (theme == "skyrim"):
 elif (theme == "gow"):
     border_focus = "#977474"
 elif (theme == "hzd"):
-    border_focus = "#6c7598"
+    border_focus = "#7f6b6b"
 
 layouts = [
     layout.MonadTall(
