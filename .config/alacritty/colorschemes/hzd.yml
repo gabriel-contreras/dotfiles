@@ -1,9 +1,9 @@
-# Alacritty skyrim color scheme
+# Alacritty horizon zero dawn color scheme
 
 colors:
   primary:
-    background: '#101111'
-    foreground: '#f1dd87'
+    background: '#684c5c'
+    foreground: '#ceccd7'
 
   cursor:
     text: CellBackground
@@ -28,27 +28,27 @@ colors:
   line_indicator:
     foreground: None
     background: None
-
+  
   selection:
     text: CellBackground
     background: CellForeground
 
   normal:
-    black:   '#101111'
-    red:     '#cc6666' # Fix!
-    green:   '#7c8c6c'
-    yellow:  '#b16e2e'
-    blue:    '#1a3f5b'
-    magenta: '#b294bb' # Fix!
-    cyan:    '#4c7484'
-    white:   '#f1dd87'
+    black:   '#684c5c'
+    red:     '#cc6666' # Check !
+    green:   '#b5bd68'
+    yellow:  '#edd5be' # Check !
+    blue:    '#4F75B6'
+    magenta: '#a797a2' # Check !
+    cyan:    '#6c7598' # Check !
+    white:   '#ceccd7'
 
   bright:
-    black:   '#101111'
-    red:     '#cc6666' # Fix!
-    green:   '#7c8c6c'
-    yellow:  '#b16e2e'
-    blue:    '#1a3f5b'
-    magenta: '#b294bb' # Fix!
-    cyan:    '#4c7484'
-    white:   '#f1dd87'
+    black:   '#684c5c'
+    red:     '#cc6666' # Check !
+    green:   '#b5bd68'
+    yellow:  '#edd5be' # Check !
+    blue:    '#4F75B6'
+    magenta: '#a797a2' # Check !
+    cyan:    '#6c7598' # Check !
+    white:   '#ceccd7'

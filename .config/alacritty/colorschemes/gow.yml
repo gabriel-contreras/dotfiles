@@ -1,9 +1,7 @@
-# Alacritty skyrim color scheme
-
 colors:
   primary:
-    background: '#101111'
-    foreground: '#f1dd87'
+    background: '#392e3c'
+    foreground: '#ffffff'
 
   cursor:
     text: CellBackground
@@ -34,21 +32,21 @@ colors:
     background: CellForeground
 
   normal:
-    black:   '#101111'
-    red:     '#cc6666' # Fix!
-    green:   '#7c8c6c'
-    yellow:  '#b16e2e'
-    blue:    '#1a3f5b'
-    magenta: '#b294bb' # Fix!
-    cyan:    '#4c7484'
-    white:   '#f1dd87'
+    black:   '#392e3c'
+    red:     '#b4747b'
+    green:   '#669F77'
+    yellow:  '#f0c674' # Check !
+    blue:    '#686EBA'
+    magenta: '#b294bb' # Check !
+    cyan:    '#6c8388'
+    white:   '#ffffff'
 
   bright:
-    black:   '#101111'
-    red:     '#cc6666' # Fix!
-    green:   '#7c8c6c'
-    yellow:  '#b16e2e'
-    blue:    '#1a3f5b'
-    magenta: '#b294bb' # Fix!
-    cyan:    '#4c7484'
-    white:   '#f1dd87'
+    black:   '#392e3c'
+    red:     '#b4747b'
+    green:   '#669F77'
+    yellow:  '#f0c674' # Check !
+    blue:    '#686EBA'
+    magenta: '#b294bb' # Check !
+    cyan:    '#6c8388'
+    white:   '#ffffff'
