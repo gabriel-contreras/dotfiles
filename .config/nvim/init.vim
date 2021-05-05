@@ -18,6 +18,8 @@ Plug 'lervag/vimtex'
 
 " Theme/Aesthetic
 Plug 'danilo-augusto/vim-afterglow'
+Plug 'wadackel/vim-dogrun'
+Plug 'sts10/vim-pink-moon'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
@@ -47,10 +49,16 @@ let g:rainbow_active = 1
 set textwidth=80
 
 " Color/Theme customizations
-" Skyrim
-colorscheme afterglow
 let g:airline_powerline_fonts = 1
-let g:airline_theme = 'zenburn'
+" Skyrim
+"colorscheme afterglow
+"let g:airline_theme = 'zenburn'
+" God of War
+colorscheme pink-moon
+let g:airline_theme = 'angr'
+" Horizon Zero Dawn
+"colorscheme dogrun
+"let g:airline_theme = 'bubblegum'
 
 " Enables autocompletion:
 set wildmode=longest,list,full
