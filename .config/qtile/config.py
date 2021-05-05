@@ -31,6 +31,10 @@ for i, (name) in enumerate(group_names):
 ### LAYOUTS ###
 if (theme == "skyrim"):
     border_focus = "#b16e2e"
+elif (theme == "gow"):
+    border_focus = "#977474"
+elif (theme == "hzd"):
+    border_focus = "#6c7598"
 
 layouts = [
     layout.MonadTall(

@@ -1,11 +1,12 @@
 from libqtile import bar, widget
 
 # Set the theme
-from colorschemes.skyrim import *
-theme = "skyrim"
+from colorschemes.gow import *
+theme = "gow"
 
 if (theme == "skyrim"): prompt = "🍮: "
 elif (theme == "gow"): prompt = "𝝮: "
+elif (theme == "hzd"): prompt = "🏹: "
 
 main_bar = bar.Bar(
      [
