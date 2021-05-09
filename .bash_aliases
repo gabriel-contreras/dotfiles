@@ -27,3 +27,10 @@ alias cfg-nvim="cd $HOME/.config/nvim/ && nvim init.vim"
 
 # Edit the Alacritty Terminal config
 alias cfg-ala="cd $HOME/.config/alacritty/ && nvim ."
+
+# Apply Themes
+alias skyrim="bash $HOME/Themes/skyrim.sh"
+alias hzd="bash $HOME/Themes/hzd.sh"
+alias gow="bash $HOME/Themes/gow.sh"
+alias sw="bash $HOME/Themes/sw.sh"
+alias world="bash $HOME/Themes/world.sh"
