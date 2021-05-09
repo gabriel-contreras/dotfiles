@@ -18,11 +18,14 @@ sed -i "s/_theme = '.*'/_theme = 'zenburn'/" $HOME/.config/nvim/init.vim
 sed -i "s/colorTheme\": \".*\"/colorTheme\": \"Ayu Dark\"/" $HOME/.config/Code\ -\ OSS/User/settings.json
 
 # Spotify
-sed -i "s/current_theme[^=]*=.*/current_theme {11}= burntSienna/" $HOME/.config/spicetify/config.ini
-spicetify update
+sed -i "s/current_theme[^=]*=.*/current_theme = burntSienna/" $HOME/.config/spicetify/config.ini
 
 # Neofetch
 sed -i "s/image_source=\"\$HOME\/\.config\/neofetch\/[^_]*/image_source=\"\$HOME\/\.config\/neofetch\/skyrim/" $HOME/.config/neofetch/config.conf
 
 # Firefox (?)
 # Slack (?)
+
+# Apply the changes
+spicetify update
+qtile cmd-obj -o cmd -f restart

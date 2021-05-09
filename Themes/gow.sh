@@ -19,10 +19,13 @@ sed -i "s/colorTheme\": \".*\"/colorTheme\": \"Horizon\"/" $HOME/.config/Code\ -
 
 # Spotify
 sed -i "s/current_theme[^=]*=.*/current_theme = cherry/" $HOME/.config/spicetify/config.ini
-spicetify update
 
 # Neofetch
 sed -i "s/image_source=\"\$HOME\/\.config\/neofetch\/[^_]*/image_source=\"\$HOME\/\.config\/neofetch\/gow/" $HOME/.config/neofetch/config.conf
 
 # Firefox (?)
 # Slack (?)
+
+# Apply the changes
+spicetify update
+qtile cmd-obj -o cmd -f restart
