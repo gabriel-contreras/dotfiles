@@ -20,6 +20,8 @@ Plug 'lervag/vimtex'
 Plug 'danilo-augusto/vim-afterglow'
 Plug 'ajmwagar/vim-deus'
 Plug 'sts10/vim-pink-moon'
+Plug 'keith/parsec.vim'
+Plug 'fcpg/vim-orbital'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
@@ -52,9 +54,11 @@ set textwidth=80
 " skyrim -> afterglow ; zenburn
 " gow -> pink-moon ; angr
 " hzd -> deus ; murmur
+" sw  -> parsec ; distinguished
+" world -> orbital ; lucius
 let g:airline_powerline_fonts = 1
-colorscheme deus
-let g:airline_theme = 'murmur'
+colorscheme orbital
+let g:airline_theme = 'lucius'
 
 " Enables autocompletion:
 set wildmode=longest,list,full

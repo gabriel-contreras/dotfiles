@@ -35,6 +35,10 @@ elif (theme == "gow"):
     border_focus = "#977474"
 elif (theme == "hzd"):
     border_focus = "#7f6b6b"
+elif (theme == "sw"):
+    border_focus = "#91322a"
+elif (theme == "world"):
+    border_focus = "#3c4445"
 
 layouts = [
     layout.MonadTall(

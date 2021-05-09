@@ -65,7 +65,7 @@ keys = [
     Key([mod], "z", lazy.spawn("zoom")),
     Key([mod], "s", lazy.spawn("slack")),
     Key([mod], "n", lazy.spawn(NOTES)),
-    Key([mod], "m", lazy.spawn(MUSIC_PLAYER))
+    Key([mod], "m", lazy.spawn(MUSIC_PLAYER)),
 
     # Screenshots
 ]
